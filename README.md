@@ -14,9 +14,13 @@ The GAN has two models, generator and discriminator. The generator has 3 Convolu
 
 # Highlights
 
-The generated midi file
+The generated `midi` file
 
 <a href="https://drive.google.com/file/d/1xqsWSK9aoe1HrTNwekgMcjeRkvuOYn4i/view?usp=sharing"> Link </a>
+
+The generated `wav` file
+
+<a href="https://drive.google.com/file/d/1N1_APalG3YtQVYZkLdZk49K1zgXDu_1Y/view?usp=sharing"> Link </a>
 
 Pitch vs time distribution of generated file
 
