@@ -50,7 +50,7 @@ The discriminator
 In future, i'm looking forward to generate realistic music with multiple instruments.
 
 # Credits
-<a href="https://github.com/mathigatti/midi2img">midi2img</a> for midi to image and image to midi.
+<a href="https://github.com/mathigatti/midi2img">midi2img</a> repository for midi to image and image to midi.
 
 # Connect with me
 
