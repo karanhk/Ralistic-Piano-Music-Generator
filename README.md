@@ -6,9 +6,10 @@ This repository proposes a model which can generate realistic piano music withou
 
 # Highlights
 
-The generated music
+The generated midi file
 
-<img width="833" alt="Screenshot 2023-04-06 at 9 23 37 AM" src="https://user-images.githubusercontent.com/76246981/230337065-93ba942f-5fa7-4ddb-a967-8780add57c91.png">
+<a href="[https://www.kaggle.com/datasets/jackvial/themaestrodatasetv2](https://drive.google.com/file/d/1xqsWSK9aoe1HrTNwekgMcjeRkvuOYn4i/view?usp=sharing)"> Link </a>
+
 
 
 English sentence : `And we say that word with such contempt.`
