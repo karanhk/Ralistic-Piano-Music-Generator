@@ -1,1 +1,7 @@
 1. Download the zip file and unzip it.
+2. The implementation.ipynb implements the model. 
+3. The midi2image.ipynb converts midi files to corrosponding piano rolls and saves as a png image.
+4. The image2midi.ipynb converts a png image, into corrosponding midi.
+5. The load_model.ipynb loads the pre trained model and generated new distributions (png images).
+6. The midi2wav.ipynb converts midi file to wav file.
+7. All lines in all files are self explainatory, if you still have a doubt then feel free to mail me.
