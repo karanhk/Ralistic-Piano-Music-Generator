@@ -6,7 +6,8 @@ This repository proposes a model which can generate realistic piano music withou
 
 ## Detailed
 
-This repository proposes a deep learning model which generates realistic piano music without human interaction from a latent vector of size 14 using General Adversarial Network (GAN). The `midi2img.ipynb` convertes midi files to image, this image is the pitch vs time distribution of that midi file in the `png` format. The `midi2image.ipynb` takes 300 notes of midi and generates distribution accordingly, the number of notes can be changed as per convience. These `png` images is the training dataset for model.
+This repository proposes a deep learning model which generates realistic piano music without human interaction from a latent vector of size 14 using General Adversarial Network (GAN). The `midi2img.ipynb` convertes midi files to image, this image is the pitch vs time distribution of that midi file in the `png` format. The `midi2image.ipynb` takes 300 notes of midi and generates distribution accordingly, the number of notes can be changed as per convience. These `png` images is the training dataset for model. The model generates `png` image and this image is converted to `midi` using image2midi.
+The `midi2image.ipynb` and `image2midi.ipynb` files are taken from <a href="https://github.com/mathigatti/midi2img">midi2image</a> repository.
 
 This images are fed to proposed model. The generator learn the distribution and generates the fake distribution, on the other hand discriminator discriminates between real (actual) and fake (generated) distribution. The training is stopped when if the discriminator classifies each distribution with probabiility 0.5 (approximatly after 3000 iterations). At this point the generator perfectly learns the distribution and can generate new identical distribution.
 
@@ -14,13 +15,11 @@ The GAN has two models, generator and discriminator. The generator has 3 Convolu
 
 # Highlights
 
-The generated `midi` file
+The generated `midi` file   <a href="https://drive.google.com/file/d/1xqsWSK9aoe1HrTNwekgMcjeRkvuOYn4i/view?usp=sharing"> Link </a>
 
-<a href="https://drive.google.com/file/d/1xqsWSK9aoe1HrTNwekgMcjeRkvuOYn4i/view?usp=sharing"> Link </a>
+The generated `wav` file    <a href="https://drive.google.com/file/d/1N1_APalG3YtQVYZkLdZk49K1zgXDu_1Y/view?usp=sharing"> Link </a>
 
-The generated `wav` file
-
-<a href="https://drive.google.com/file/d/1N1_APalG3YtQVYZkLdZk49K1zgXDu_1Y/view?usp=sharing"> Link </a>
+The generator model   <a href="https://drive.google.com/file/d/1JBs3Hoa3dm5aGrNrPfWSqmGeW0Yxro0D/view?usp=sharing"> Link </a>
 
 Pitch vs time distribution of generated file
 
@@ -49,6 +48,9 @@ The discriminator
 # Future work
 
 In future, i'm looking forward to generate realistic music with multiple instruments.
+
+# Credits
+<a href="https://github.com/mathigatti/midi2img">midi2img</a> for midi to image and image to midi.
 
 # Connect with me
 
