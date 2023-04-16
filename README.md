@@ -1,3 +1,7 @@
+# Disclaimer
+
+I admit that the video or gameplay used is obtained through youtube and may under copyright protection. Such usage is completly inadvertent. It is quite possible that i overlooked to give full scholarly credit to the copyright owners. I believe that the non-commercial, only-for-education use of the material may allow the video in question fall under fair use of such content.
+
 # About
 
 ## Abstract
@@ -7,6 +11,7 @@ This repository proposes a model which can generate realistic piano music withou
 This generated music has many applications. In below video, i used generated music as background music for mario game.
 
 
+https://user-images.githubusercontent.com/76246981/232266962-758e25b0-41e8-472e-9cc9-409ef7dab781.mov
 
 ## Detailed
 
@@ -18,6 +23,8 @@ This images are fed to proposed model. The generator learn the distribution and 
 The GAN has two models, generator and discriminator. The generator has 3 Convolutional layers, 3 Upsampling layers and one dense layer with leaky ReLU activation. The generator takes input as latent vector of size 14, then generates the images of size 106x300x1. The discriminator discriminator between real and fake distributions, it has 5 Convolutional layers and one dense layer with Leaky ReLU and sigmoid activation. The discriminator takes input images of size 106x300x1 and classifies it as real or fake.
 
 # Highlights
+
+Full Video <a href="https://drive.google.com/file/d/1NYg_Z4_gVGdsUMXpheTuY6lZz2jrWhcM/view?usp=sharing"> Link </a>
 
 The generated `midi` file   <a href="https://drive.google.com/file/d/1xqsWSK9aoe1HrTNwekgMcjeRkvuOYn4i/view?usp=sharing"> Link </a>
 
