@@ -4,6 +4,10 @@
 
 This repository proposes a model which can generate realistic piano music without human interaction using General Adversarial Network (GAN) proposed by Ian Goodfellow in 2014. This model generates piano music of 37 seconds from a latent vector of size 14. It is trained on <a href="https://www.kaggle.com/datasets/jackvial/themaestrodatasetv2">MAESTRO V2 dataset </a>. The model is built with `Tensorflow` and completly implemented in `Python`.
 
+This generated music has many applications. In below video, i used generated music as background music for mario game.
+
+
+
 ## Detailed
 
 This repository proposes a deep learning model which generates realistic piano music without human interaction from a latent vector of size 14 using General Adversarial Network (GAN). The `midi2img.ipynb` convertes midi files to image, this image is the pitch vs time distribution of that midi file in the `png` format. The `midi2image.ipynb` takes 300 notes of midi and generates distribution accordingly, the number of notes can be changed as per convience. These `png` images is the training dataset for model. The model generates `png` image and this image is converted to `midi` using image2midi.
